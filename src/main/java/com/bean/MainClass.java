@@ -12,8 +12,8 @@ public class MainClass
 
         ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 
-        var bean = context.getBean("bean", Messages.class);
-        var bean1 = context.getBean("bean", Messages.class);
+        var bean = context.getBean("msg", Messages.class);
+        var bean1 = context.getBean("msg", Messages.class);
         System.out.println(bean.hashCode()+"=="+bean1.hashCode());
     }
 }
