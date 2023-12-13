@@ -6,7 +6,9 @@
 
 
     <!-- bean definitions here -->
-    <bean id="msg" class="com.bean.utils.Messages"/>
+<!--    <bean id="msg" class="com.bean.utils.Messages"/>-->
+    <bean id="phone" class="com.bean.service.Phone"/>
+    <bean class="com.bean.utils.Messages" name="msg" scope="prototype"/>
 
 
 </beans>

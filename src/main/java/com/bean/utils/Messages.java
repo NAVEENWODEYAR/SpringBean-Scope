@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(scopeName = "prototype")
+@Scope("prototype")
 public class Messages
 {
     public void m1()
