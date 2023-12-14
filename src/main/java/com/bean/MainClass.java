@@ -1,5 +1,6 @@
 package com.bean;
 
+import com.bean.entity.Student;
 import com.bean.service.Phone;
 import com.bean.utils.Messages;
 import org.springframework.context.ApplicationContext;
@@ -20,5 +21,8 @@ public class MainClass
         var bean2a = context.getBean("phone", Phone.class);
         System.out.println(bean.hashCode()+"=="+bean1.hashCode());
         System.out.println(bean2.hashCode()+"=="+bean2a.hashCode());
+
+        Student st = new Student();
+        System.out.println(st.hashCode());
     }
 }
