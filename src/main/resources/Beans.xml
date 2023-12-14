@@ -9,6 +9,7 @@
 <!--    <bean id="msg" class="com.bean.utils.Messages"/>-->
     <bean id="phone" class="com.bean.service.Phone"/>
     <bean class="com.bean.utils.Messages" name="msg" scope="prototype"/>
+    <bean class="com.bean.entity.Student" name="stu" scope="singleton"/>
 
 
 </beans>

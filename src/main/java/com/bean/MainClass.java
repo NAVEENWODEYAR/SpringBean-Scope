@@ -22,7 +22,9 @@ public class MainClass
         System.out.println(bean.hashCode()+"=="+bean1.hashCode());
         System.out.println(bean2.hashCode()+"=="+bean2a.hashCode());
 
-        Student st = new Student();
-        System.out.println(st.hashCode());
+        System.out.println("***********");
+        var bean3 = context.getBean("stu", Student.class);
+        var bean3a = context.getBean("stu", Student.class);
+        System.out.println(bean3.hashCode()+"=="+bean3a.hashCode());
     }
 }
