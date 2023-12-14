@@ -1,4 +1,4 @@
-package com.bean.searchinf;
+package com.bean.searching;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -25,7 +25,6 @@ public class BinarySearch
                 System.out.println("Element not found,");
             }
         }
-
 
     public static void main(String[] args)
     {
