@@ -8,10 +8,9 @@ public class BinarySearch1
     // binary Search using recursion,
     static int binarySearch(int arr[], int left, int right, int element)
     {
-        if(left >= right)
+        if(right >= left)
         {
             int mid = left + (right-left)/2;
-
             if (arr[mid] == element)
                 return mid;
 
@@ -34,6 +33,7 @@ public class BinarySearch1
         int ele = sc.nextInt();
 
         var i = binarySearch(arr, 0, arr.length - 1, ele);
+
         if(i == -1)
             System.out.println("Element not found,");
         else
