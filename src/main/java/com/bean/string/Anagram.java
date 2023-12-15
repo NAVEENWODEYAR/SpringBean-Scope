@@ -21,6 +21,6 @@ public class Anagram
                 "but the order of the characters may be different.");
 
         anagramTest("String","String");
-
+        anagramTest("anagram","sangram");
     }
 }
