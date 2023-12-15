@@ -28,7 +28,7 @@ public class BinarySearch
 
     public static void main(String[] args)
     {
-        System.out.println("\n Data has to be in sorted order before Binary search,");
+        System.out.println("\n Data has to be in sorted order before searching ,");
         int arr[] = {5,2,3,6,8,1};
         Arrays.sort(arr);
         Scanner sc = new Scanner(System.in);
