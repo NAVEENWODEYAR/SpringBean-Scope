@@ -4,6 +4,7 @@ public class ConstructorOverloading
 {
     ConstructorOverloading()
     {
+        this(1);
         System.out.println("Constructor:1");
     }
     ConstructorOverloading(int a)
@@ -13,6 +14,6 @@ public class ConstructorOverloading
     public static void main(String[] args)
     {
         new ConstructorOverloading();
-        new ConstructorOverloading(1);
+//        new ConstructorOverloading(1);
     }
 }
