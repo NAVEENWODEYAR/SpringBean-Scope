@@ -18,5 +18,6 @@ public class StringFrequ
         System.out.println("****************");
 
         strFreq(Arrays.asList("One","Three","Two","One","Three"));
+        strFreq(Arrays.asList("1","2","3","4","1","2"));
     }
 }

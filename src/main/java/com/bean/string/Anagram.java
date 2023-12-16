@@ -22,6 +22,6 @@ public class Anagram
 
         anagramTest("String","String");
         anagramTest("anagram","sangram");
-        anagramTest("keep","speek");
+        anagramTest("keep","peek");
     }
 }
