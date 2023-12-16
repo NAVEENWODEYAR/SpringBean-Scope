@@ -8,7 +8,7 @@ public class SingleTonClassEx
     // private constructor,
     private SingleTonClassEx()
     {
-
+        System.out.println("Private constructor,");
     }
 
     public static SingleTonClassEx getInstance()
