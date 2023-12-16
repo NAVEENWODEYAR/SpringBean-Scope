@@ -19,5 +19,6 @@ public class CharFreq
         System.out.println("/n Character frequency using Java8");
         charFreq("String");
         charFreq("Daily@");
+        charFreq("@Daily@");
     }
 }
