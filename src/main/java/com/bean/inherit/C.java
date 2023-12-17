@@ -6,4 +6,8 @@ public final class C extends B
     {
         return "";
     }
+
+    public static void main(String[] args) {
+        new B().t1();
+    }
 }
