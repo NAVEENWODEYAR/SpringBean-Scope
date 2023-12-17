@@ -26,5 +26,6 @@ public class StringFrequency
     {
         System.out.println("\n Frequency of String");
         charFreq("\ncharacter");
+        charFreq("\nFrequency");
     }
 }

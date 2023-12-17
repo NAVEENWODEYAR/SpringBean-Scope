@@ -7,7 +7,7 @@ public class SumOfElements
     static void sumOfElements(int arr[])
     {
         int sum = 0;
-        for (int i=0; i<arr.length-1; i++)
+        for (int i=0; i<arr.length; i++)
         {
             sum = sum + arr[i];
         }
