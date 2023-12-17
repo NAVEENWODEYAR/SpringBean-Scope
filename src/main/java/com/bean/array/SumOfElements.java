@@ -1,5 +1,7 @@
 package com.bean.array;
 
+import java.util.Arrays;
+
 public class SumOfElements
 {
     static void sumOfElements(int arr[])
@@ -10,6 +12,8 @@ public class SumOfElements
             sum = sum + arr[i];
         }
         System.out.println(sum);
+        var sum1 = Arrays.stream(arr).sum();
+        System.out.println(sum1);
     }
 
     public static void main(String[] args)
