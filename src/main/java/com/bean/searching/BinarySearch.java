@@ -33,7 +33,7 @@ public class BinarySearch
         Arrays.sort(arr);
         Scanner sc = new Scanner(System.in);
         System.out.println(Arrays.toString(arr));
-        System.out.println("Enter the element to search,");
+        System.out.println("Enter the element to be searched,");
         int ele = sc.nextInt();
         binarySearch(arr,0,arr.length-1,ele);
     }
