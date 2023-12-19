@@ -12,5 +12,7 @@ public class ReverseString
         System.out.println("\n Reversing String");
         var string = stReverse("String");
         System.out.println(string);
+        System.out.println("*********");
+        new Vowels().s
     }
 }
