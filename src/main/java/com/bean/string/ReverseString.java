@@ -13,6 +13,7 @@ public class ReverseString
         var string = stReverse("String");
         System.out.println(string);
         System.out.println("*********");
-        new Vowels().s
+        var string1 = new Vowels().strContainsVowels("string");
+        System.out.println(string1);
     }
 }
