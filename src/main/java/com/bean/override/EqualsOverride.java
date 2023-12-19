@@ -14,6 +14,6 @@ public class EqualsOverride {
         if (ob.equals(ob1))
             System.out.println("Equals method overridden");
         else
-            System.out.println("Equals method overridden");
+            System.out.println("Equals method not overridden");
     }
 }
