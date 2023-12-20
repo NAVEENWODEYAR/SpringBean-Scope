@@ -9,7 +9,7 @@ import java.util.Date;
 public class GetDate2 {
     static void getDate()
     {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("DD/MM/YYYY HH:mm:ss");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("xx:xx:xx HH:MM:SS");
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println(dtf.format(localDateTime));
     }
