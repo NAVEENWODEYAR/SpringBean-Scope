@@ -1,6 +1,7 @@
 package com.bean.inherit;
 
 import java.lang.reflect.Array;
+import java.util.List;
 
 public final class D extends B
 {
@@ -9,6 +10,7 @@ public final class D extends B
     static boolean b;
     static char ch;
     static Array[] ar;
+    static List<Object> lst;
 
     public static void main(String[] args)
     {
@@ -18,5 +20,6 @@ public final class D extends B
         System.out.println(ch);
         System.out.println(ar);
         System.out.println(new D());
+        System.out.println(lst);
     }
 }
