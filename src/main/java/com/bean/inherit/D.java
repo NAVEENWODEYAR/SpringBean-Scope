@@ -2,7 +2,7 @@ package com.bean.inherit;
 
 import java.lang.reflect.Array;
 
-public final class D
+public final class D extends B
 {
     static int i;
     static float f;
