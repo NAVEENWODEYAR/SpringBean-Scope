@@ -17,5 +17,6 @@ public final class D extends B
         System.out.println(b);
         System.out.println(ch);
         System.out.println(ar);
+        System.out.println(new D());
     }
 }
