@@ -23,5 +23,6 @@ public class Anagram
         anagramTest("String","String");
         anagramTest("anagram","sangram");
         anagramTest("keep","peek");
+        anagramTest("debug","bedbug");
     }
 }
