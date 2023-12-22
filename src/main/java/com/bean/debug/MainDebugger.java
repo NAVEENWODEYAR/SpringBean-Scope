@@ -11,9 +11,5 @@ public class MainDebugger {
         System.out.println(add+"-"+sub);
         System.out.println(new MainDebugger().toString().getBytes().length);
         Thread t = new Thread();
-        t.run()
-        {
-            c.prod(a,b);
-        }
     }
 }
