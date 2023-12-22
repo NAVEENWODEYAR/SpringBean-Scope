@@ -9,5 +9,6 @@ public class MainDebugger {
         var add = c.add(a, b);
         var sub = c.sub(a, b);
         System.out.println(add+"-"+sub);
+        System.out.println(new MainDebugger().toString().getBytes());
     }
 }
