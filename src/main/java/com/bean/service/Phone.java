@@ -9,4 +9,8 @@ public class Phone
     {
         System.out.println("Changing to prototype scope,");
     }
+    public void m2()
+    {
+        System.out.println("Changing to prototype scope,");
+    }
 }
