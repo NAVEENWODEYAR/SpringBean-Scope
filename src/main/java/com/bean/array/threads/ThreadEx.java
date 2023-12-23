@@ -8,5 +8,6 @@ public class ThreadEx extends Thread {
     public static void main(String[] args) {
         Thread t = new ThreadEx();
                     t.start();
+        System.out.println(t.getName());
     }
 }

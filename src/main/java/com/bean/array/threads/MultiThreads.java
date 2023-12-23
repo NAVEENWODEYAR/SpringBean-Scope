@@ -16,9 +16,7 @@ public class MultiThreads extends Thread {
             MultiThreads ml = new MultiThreads();
             MultiThreads ml1 = new MultiThreads();
                         ml.start();
-                        ml.wait(100);
                         ml1.start();
-
         }
     }
 }
