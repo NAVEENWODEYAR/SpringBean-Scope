@@ -9,5 +9,6 @@ public class ThreadEx extends Thread {
         Thread t = new ThreadEx();
                     t.start();
         System.out.println(t.getName());
+        System.out.println(t.getThreadGroup());
     }
 }
