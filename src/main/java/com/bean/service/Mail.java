@@ -3,7 +3,7 @@ package com.bean.service;
 import org.springframework.stereotype.Component;
 
 @Component("phone")
-public class Phone
+public class Mail
 {
     public void m1()
     {
