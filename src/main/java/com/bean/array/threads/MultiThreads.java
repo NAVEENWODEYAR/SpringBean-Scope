@@ -14,8 +14,11 @@ public class MultiThreads extends Thread {
         for (int i=0; i<10; i++)
         {
             MultiThreads ml = new MultiThreads();
+            MultiThreads ml1 = new MultiThreads();
                         ml.start();
                         ml.wait(100);
+                        ml1.start();
+
         }
     }
 }
