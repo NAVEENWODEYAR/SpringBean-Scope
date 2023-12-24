@@ -26,5 +26,6 @@ public class MainClass
         var bean3 = context.getBean("stu", Student.class);
         var bean3a = context.getBean("stu", Student.class);
         System.out.println(bean3.hashCode()+"=="+bean3a.hashCode());
+        System.out.println(Thread.currentThread());
     }
 }
