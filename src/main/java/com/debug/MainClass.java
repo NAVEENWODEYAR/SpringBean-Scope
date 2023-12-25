@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
         System.out.println("***********");
-        var c = new Calculator();
+        var c = new Calculator();   
         int a = 1;
         int b = 3;
 
