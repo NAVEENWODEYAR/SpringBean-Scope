@@ -7,7 +7,7 @@ public class StringTemplate {
         System.out.println("StringTemplate in java 21");
         int a = 0;
         int b = 1;
-        String st = "String Template";
+        String st = "StringTemplate";
 
         System.out.println(STR."value of a:\{a}");
         System.out.println(STR."value of b:\{b}");
