@@ -4,7 +4,7 @@ public class EqualsOverride {
 
     @Override
     public boolean equals(Object obj) {
-        return true;
+        return false;
     }
 
     public static void main(String[] args) {
