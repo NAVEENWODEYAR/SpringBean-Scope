@@ -11,4 +11,8 @@ public class Calculator {
         return a-b;
     }
 
+    @Override
+    public String toString() {
+        return "";
+    }
 }
