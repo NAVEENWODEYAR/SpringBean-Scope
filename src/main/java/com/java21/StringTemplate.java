@@ -1,5 +1,7 @@
 package com.java21;
 
+import java.util.concurrent.atomic.AtomicBoolean;
+
 import static java.lang.StringTemplate.STR;
 
 public class StringTemplate {
@@ -8,7 +10,7 @@ public class StringTemplate {
         int a = 0;
         int b = 1;
         String st = "StringTemplate";
-        boolean bl;
+        AtomicBoolean bl = new AtomicBoolean(false);
 
         System.out.println(STR."value of a:\{a}");
         System.out.println(STR."value of b:\{b}");
