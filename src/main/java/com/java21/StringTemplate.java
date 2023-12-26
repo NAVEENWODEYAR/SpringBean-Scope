@@ -8,9 +8,12 @@ public class StringTemplate {
         int a = 0;
         int b = 1;
         String st = "StringTemplate";
+        boolean bl;
 
         System.out.println(STR."value of a:\{a}");
         System.out.println(STR."value of b:\{b}");
         System.out.println(STR."value of st:\{st}");
+        System.out.println(STR."value of bl:\{bl}");
+
     }
 }
