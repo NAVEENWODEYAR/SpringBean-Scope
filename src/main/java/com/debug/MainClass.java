@@ -11,5 +11,6 @@ public class MainClass {
 
         System.out.println("Sum of numbers="+c.add(a,b));
         System.out.println("Difference in numbers="+c.dif(a,b));
+        System.out.println(c.getClass().toString());
     }
 }
