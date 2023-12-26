@@ -7,5 +7,5 @@ import org.springframework.stereotype.Component;
 //@Scope("prototype")
 public class Student
 {
-
+    public Student(){}
 }

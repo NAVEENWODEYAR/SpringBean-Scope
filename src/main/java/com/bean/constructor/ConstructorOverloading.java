@@ -14,6 +14,6 @@ public class ConstructorOverloading
     public static void main(String[] args)
     {
         new ConstructorOverloading();
-//        new ConstructorOverloading(1);
+        new ConstructorOverloading(1);
     }
 }
