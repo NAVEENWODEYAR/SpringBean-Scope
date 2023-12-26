@@ -12,6 +12,9 @@ public class SingleTonClassImpl
         SingleTonClassEx s2 = SingleTonClassEx.getInstance();
         SingleTonClassEx s3 = SingleTonClassEx.getInstance();
 
+        if(s.hashCode() == s2.hashCode())
+            System.out.println("Same Object");
+
         System.out.println(s.hashCode());
         System.out.println(s1.hashCode());
         System.out.println(s2.hashCode());
