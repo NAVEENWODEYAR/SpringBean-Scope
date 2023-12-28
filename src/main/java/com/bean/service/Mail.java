@@ -5,9 +5,8 @@ import org.springframework.stereotype.Component;
 @Component("phone")
 public class Mail
 {
-    public void m1()
+    public void m1(String toMail)
     {
-        System.out.println("Changing to prototype scope,");
+        System.out.println("Mail sent to "+toMail+" successfully");
     }
-    public void m2() {System.out.println("Changing to prototype scope,");}
 }
