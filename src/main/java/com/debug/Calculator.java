@@ -13,6 +13,6 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return "";
+        return "@Override";
     }
 }
