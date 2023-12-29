@@ -4,7 +4,10 @@ public class EqualsOverride {
 
     @Override
     public boolean equals(Object obj) {
-        return false;
+        EqualsOverride e = (EqualsOverride) obj;
+        EqualsOverride e1 = (EqualsOverride) obj;
+
+        return e.equals(e1);
     }
 
     public static void main(String[] args) {
