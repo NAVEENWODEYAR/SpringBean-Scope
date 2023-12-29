@@ -27,5 +27,7 @@ public class EqualsOverride {
             System.out.println("Equals method overridden");
         else
             System.out.println("Equals method not overridden");
+
+        System.out.println(Thread.currentThread());
     }
 }
