@@ -20,5 +20,6 @@ public class SumOfElements
     {
         System.out.println("*********");
         sumOfElements(new int[]{4,5,6,7,8,9});
+        System.out.println(Thread.currentThread());
     }
 }
