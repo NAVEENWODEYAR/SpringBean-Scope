@@ -24,5 +24,6 @@ public class Anagram
         anagramTest("anagram","sangram");
         anagramTest("keep","peek");
         anagramTest("debug","bedbug");
+        anagramTest("level","elevl");
     }
 }

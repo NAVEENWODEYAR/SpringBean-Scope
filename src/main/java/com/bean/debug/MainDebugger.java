@@ -1,5 +1,7 @@
 package com.bean.debug;
 
+import java.time.LocalDate;
+
 public class MainDebugger {
     public static void main(String[] args) {
         Calculator c = new Calculator();
@@ -10,5 +12,6 @@ public class MainDebugger {
         var sub = c.sub(a, b);
         System.out.println(add+"-"+sub);
         System.out.println(new MainDebugger().toString().getBytes().length);
+        System.out.println(LocalDate.now().getYear());
     }
 }
