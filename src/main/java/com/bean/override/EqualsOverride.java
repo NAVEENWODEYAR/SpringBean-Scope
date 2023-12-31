@@ -24,9 +24,9 @@ public class EqualsOverride {
         EqualsOverride ob1 = new EqualsOverride(1,"1");
 
         if (ob.equals(ob1))
-            System.out.println("Equals method overridden");
+            System.out.println("Bye 2023");
         else
-            System.out.println("Equals method not overridden");
+            System.out.println("Welcome 2024");
 
         System.out.println(Thread.currentThread());
     }
